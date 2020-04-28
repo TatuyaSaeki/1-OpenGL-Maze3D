@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\BossEnemy.h" />
+    <ClInclude Include="..\src\BossKeyItem.h" />
+    <ClInclude Include="..\src\Camera.h" />
+    <ClInclude Include="..\src\CharacterBase.h" />
+    <ClInclude Include="..\src\Collision.h" />
+    <ClInclude Include="..\src\CollisionManager.h" />
+    <ClInclude Include="..\src\Color.h" />
+    <ClInclude Include="..\src\DrawFunction.h" />
+    <ClInclude Include="..\src\DropItem.h" />
+    <ClInclude Include="..\src\DummyKeyItem.h" />
+    <ClInclude Include="..\src\ItemBase.h" />
+    <ClInclude Include="..\src\ItemManager.h" />
+    <ClInclude Include="..\src\Key.h" />
+    <ClInclude Include="..\src\KeyInformation.h" />
+    <ClInclude Include="..\src\KeyItem.h" />
+    <ClInclude Include="..\src\LastKeyItem.h" />
+    <ClInclude Include="..\src\NomalEnemy.h" />
+    <ClInclude Include="..\src\EnemyBase.h" />
+    <ClInclude Include="..\src\EnemyManager.h" />
+    <ClInclude Include="..\src\Game.h" />
+    <ClInclude Include="..\src\Main.h" />
+    <ClInclude Include="..\src\MapObjectBase.h" />
+    <ClInclude Include="..\src\Matrix.h" />
+    <ClInclude Include="..\src\Model.h" />
+    <ClInclude Include="..\src\ObjectBase.h" />
+    <ClInclude Include="..\src\OpenGL.h" />
+    <ClInclude Include="..\src\Player.h" />
+    <ClInclude Include="..\src\SceneBase.h" />
+    <ClInclude Include="..\src\SceneBossBatlle.h" />
+    <ClInclude Include="..\src\SceneBossBattleResult.h" />
+    <ClInclude Include="..\src\SceneGame.h" />
+    <ClInclude Include="..\src\SceneGameClear.h" />
+    <ClInclude Include="..\src\SceneManager.h" />
+    <ClInclude Include="..\src\SceneResult.h" />
+    <ClInclude Include="..\src\SceneTitle.h" />
+    <ClInclude Include="..\src\Shape.h" />
+    <ClInclude Include="..\src\Sound.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\Sword.h" />
+    <ClInclude Include="..\src\Texture.h" />
+    <ClInclude Include="..\src\Typedef.h" />
+    <ClInclude Include="..\src\Vector.h" />
+    <ClInclude Include="..\src\MapObjectManager.h" />
+    <ClInclude Include="..\src\Vector2.h" />
+    <ClInclude Include="..\src\WeaponBase.h" />
+    <ClInclude Include="..\src\WeaponManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BossEnemy.cpp" />
+    <ClCompile Include="..\src\BossKeyItem.cpp" />
+    <ClCompile Include="..\src\Camera.cpp" />
+    <ClCompile Include="..\src\CharacterBase.cpp" />
+    <ClCompile Include="..\src\Collision.cpp" />
+    <ClCompile Include="..\src\CollisionManager.cpp" />
+    <ClCompile Include="..\src\Color.cpp" />
+    <ClCompile Include="..\src\DrawFunction.cpp" />
+    <ClCompile Include="..\src\DropItem.cpp" />
+    <ClCompile Include="..\src\DummyKeyItem.cpp" />
+    <ClCompile Include="..\src\ItemBase.cpp" />
+    <ClCompile Include="..\src\ItemManager.cpp" />
+    <ClCompile Include="..\src\Key.cpp" />
+    <ClCompile Include="..\src\KeyInformation.cpp" />
+    <ClCompile Include="..\src\KeyItem.cpp" />
+    <ClCompile Include="..\src\LastKeyItem.cpp" />
+    <ClCompile Include="..\src\NomalEnemy.cpp" />
+    <ClCompile Include="..\src\EnemyBase.cpp" />
+    <ClCompile Include="..\src\EnemyManager.cpp" />
+    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\Main.cpp" />
+    <ClCompile Include="..\src\MapObjectBase.cpp" />
+    <ClCompile Include="..\src\Matrix.cpp" />
+    <ClCompile Include="..\src\Model.cpp" />
+    <ClCompile Include="..\src\ObjectBase.cpp" />
+    <ClCompile Include="..\src\OpenGL.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\SceneBase.cpp" />
+    <ClCompile Include="..\src\SceneBossBatlle.cpp" />
+    <ClCompile Include="..\src\SceneBossBattleResult.cpp" />
+    <ClCompile Include="..\src\SceneGame.cpp" />
+    <ClCompile Include="..\src\SceneGameClear.cpp" />
+    <ClCompile Include="..\src\SceneManager.cpp" />
+    <ClCompile Include="..\src\SceneResult.cpp" />
+    <ClCompile Include="..\src\SceneTitle.cpp" />
+    <ClCompile Include="..\src\Shape.cpp" />
+    <ClCompile Include="..\src\Sound.cpp" />
+    <ClCompile Include="..\src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\Sword.cpp" />
+    <ClCompile Include="..\src\Texture.cpp" />
+    <ClCompile Include="..\src\Vector.cpp" />
+    <ClCompile Include="..\src\MapObjectManager.cpp" />
+    <ClCompile Include="..\src\Vector2.cpp" />
+    <ClCompile Include="..\src\WeaponBase.cpp" />
+    <ClCompile Include="..\src\WeaponManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D2F62BC1-91FC-4F49-9E21-99DA30C21BED}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OpenGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>d</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets" Condition="Exists('packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" />
+    <Import Project="packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets" Condition="Exists('packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets'))" />
+    <Error Condition="!Exists('packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets'))" />
+  </Target>
+</Project>
